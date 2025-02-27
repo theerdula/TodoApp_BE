@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const express =require("express")
 
-const uri="mongodb://localhost:27017/TodosDB"
-//const uri = process.env.DATABASE
+//const uri="mongodb://localhost:27017/studentsDB"
+const uri = process.env.DATABASE
 mongoose.connect(uri, {
    useNewUrlParser: true,
    useUnifiedTopology: true
